@@ -1,0 +1,84 @@
+/* header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    z-index: 3;
+}
+header a {
+    color: grey;
+}
+header a:hover {
+    color: #14AFCB;
+}
+label {
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+label h2 {color: #14AFCB;}
+/* header end */
+/*     BG     */
+.bg {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    height: 50%;
+    color: white;
+    padding-top: 150px;
+    text-align: center;
+}
+.bg::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.71);
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+.bg p {
+    font-size: 30px;
+    font-weight: bold;
+}
+.t {z-index: 2;}
+/*    BG end   */
+/*   section2  */
+.section2 {
+    text-align: center;
+    margin: 100px;  
+}
+.section2 h2 {
+    color: #14AFCB;
+    font-weight: bold;
+}
+/*     image    */
+img {
+    width: 126px;
+    height: 116px;
+}
+
+.image {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image h5 {
+    color: #14AFCB;
+    text-align: center;
+}
+/* section2 end */
+/*    footer    */
+footer {
+    background-color: #14AFCB;
+}
+.footer1 {
+    display: flex;
+    justify-content: space-around;
+}
