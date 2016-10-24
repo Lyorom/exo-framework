@@ -77,8 +77,34 @@ img {
 /*    footer    */
 footer {
     background-color: #14AFCB;
+    color: white;
 }
 .footer1 {
     display: flex;
     justify-content: space-around;
+    padding:  20px;
+    font-size: 15px;
+}
+
+.footer1 aside {
+
+}
+
+.footer1 form {
+    width: 150%;
+    
+}
+
+.footer1 form input {
+    background-color: #002341;
+    border: none;
+    padding: 12px;
+    width: 60%;
+}
+
+.footer1 form a {
+    text-decoration: none;
+    color: white;
+    border: solid 3px;
+    padding: 10px;
 }
